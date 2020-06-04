@@ -1,0 +1,39 @@
+.search-container > .search-input {
+    box-sizing: border-box;
+    background-color: #1f364d;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 35px;
+    color: white;
+    opacity: .8;
+    transition: opacity .2s;
+    width: 100%;
+    height: 35px;
+}
+
+.search-container > .popover-container {
+    position: relative;
+    width: 100%;
+    max-height: 299px;
+    overflow-y: auto;
+    background-color: #0f273d;
+    border: 1px solid #0c2033;
+    border-radius: 4px;
+    box-shadow: 0px 0px 40px 0px#1f364d;
+    margin-top: 10px;
+}
+
+.search-container > .popover-container > .list {
+    list-style: none;
+}
+
+.search-container > .popover-container > .list > .list-item {
+    color: #9cb3c9;
+    padding: 15px 0 15px 35px;
+    border-bottom: 2px solid #0c2033;
+    cursor: pointer;
+}
+
+.search-container > .popover-container > .list > .list-item:hover {
+    color: #fff;
+}
